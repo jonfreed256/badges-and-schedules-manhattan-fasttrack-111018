@@ -16,20 +16,20 @@ attendees.each do |name|
 end
 
 # room assigner
-def assign_rooms(names, rooms)
-  # number = names.length
-  # counter = 0
-  while counter < number
-    if names.length > 0
-      attendee1 = names.sample
-      names.delete(attendee1)
-      room1 = rooms.sample
-      rooms.delete(room1)
-    end
-    puts "#{names.attendee1}, your room number is #{rooms.room1}".
-    # counter += 1
-end
-end
+# def assign_rooms(names, rooms)
+#   number = names.length
+#   counter = 0
+#   while counter < number
+#     if names.length > 0
+#       attendee1 = names.sample
+#       names.delete(attendee1)
+#       room1 = rooms.sample
+#       rooms.delete(room1)
+#     end
+#     puts "#{names.attendee1}, your room number is #{rooms.room1}".
+#     counter += 1
+# end
+# end
 
 # assign_rooms(attendees, rooms)
 # rooms = [1, 2, 3, 4, 5, 6, 7]

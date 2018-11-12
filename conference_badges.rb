@@ -17,9 +17,10 @@ end
 
 # room assigner
 def assign_rooms(names, rooms)
-  number = names.length
+  attNumber = names.length
+  roomNumber = rooms.length
   counter = 0
-  while counter < number
+  while counter < attNumber && counter < roomNumber
     if names.length > 0
       attendee1 = names.sample
       names.delete(attendee1)

@@ -31,7 +31,7 @@ def assign_rooms(names, rooms)
 end
 end
 
-assign_rooms(attendees, rooms)
+# assign_rooms(attendees, rooms)
 # rooms = [1, 2, 3, 4, 5, 6, 7]
 # attendees.each do |rooms|
 #   puts assign_rooms(attendees)

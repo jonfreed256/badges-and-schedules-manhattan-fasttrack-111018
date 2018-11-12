@@ -2,8 +2,10 @@
 
 # array of conference attendees
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 # array of attendee rooms
 rooms = [1, 2, 3, 4, 5, 6, 7]
+
 # badge creator
 def batch_badge_creator(name)
   puts "Hi, my name is #{name}!"

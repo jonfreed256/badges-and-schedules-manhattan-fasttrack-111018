@@ -25,9 +25,9 @@ def assign_rooms(names, rooms)
       names.delete(attendee1)
       room1 = rooms.sample
       rooms.delete(room1)
-    end
     puts "#{names.[attendee1]}, your room number is #{rooms.[room1]}."
     counter += 1
+  end
 end
 
 assign_rooms(attendees, rooms)

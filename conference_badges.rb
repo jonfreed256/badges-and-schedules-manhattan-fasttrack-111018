@@ -20,7 +20,7 @@ def assign_rooms(names, rooms)
   number = names.length
   counter = 0
   while counter < number
-    if names.length > 0
+    if number > 0
       attendee1 = names.sample
       names.delete(attendee1)
       room1 = rooms.sample

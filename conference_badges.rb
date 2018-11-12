@@ -31,3 +31,14 @@ def assign_rooms(names, rooms)
 end
 
 assign_rooms(attendees, rooms)
+
+# attendees.each do |rooms|
+#   puts assign_rooms(attendees)
+# end
+
+
+# printer
+# def printer(name)
+#   batch_badge_creator(attendees).each do |name|
+#     puts
+# end

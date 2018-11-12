@@ -26,7 +26,6 @@ def assign_rooms(names, rooms)
     end
     puts "#{names.[attendee1]}, your room number is #{rooms.room1}".
     counter += 1
-  end
 end
 
 assign_rooms(attendees)
@@ -37,7 +36,7 @@ assign_rooms(attendees)
 
 
 # printer
-def printer(name)
-  batch_badge_creator(attendees).each do |name|
-    puts
-end
+# def printer(name)
+#   batch_badge_creator(attendees).each do |name|
+#     puts
+# end

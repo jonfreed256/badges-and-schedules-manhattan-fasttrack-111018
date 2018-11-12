@@ -28,7 +28,7 @@ def assign_rooms(names, rooms)
     end
     puts "#{names.[attendee1]}, your room number is #{rooms.[room1]}".
     counter += 1
-end
+  end 
 end
 
 assign_rooms(attendees, rooms)

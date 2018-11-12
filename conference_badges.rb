@@ -15,7 +15,7 @@ attendees.each do |name|
   batch_badge_creator(name)
 end
 
-room assigner
+# room assigner
 def assign_rooms(names, rooms)
   number = names.length
   counter = 0

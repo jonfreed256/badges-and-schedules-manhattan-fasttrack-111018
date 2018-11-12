@@ -2,6 +2,7 @@
 
 # array of conference attendees
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# array of attendee rooms
 rooms = [1, 2, 3, 4, 5, 6, 7]
 # badge creator
 def batch_badge_creator(name)
@@ -13,15 +14,16 @@ attendees.each do |name|
 end
 
 # room assigner
-def assign_rooms(array)
-  number = array.length
+def assign_rooms(names, rooms)
+  number = names.length
   counter = 0
   while counter < number
-    if array.length > 0
-      attendee1 = array.sample
-      array.delete(attendee1)
-      
-    puts "#{name}! Your room number is" "#{counter}".
+    if names.length > 0
+      attendee1 = names.sample
+      names.delete(attendee1)
+      room1 = rooms.sample
+      rooms.delete(room1)
+    puts "#{names.[attendee1]}, your room number is #{room1}".
     counter += 1
   end
 end
